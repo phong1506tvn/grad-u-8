@@ -205,10 +205,19 @@ export default function Home() {
             </h1>
           </div>
         </div>
-        <h1 className="col-start-1 col-span-4 dt:col-start-1 dt:col-span-6 coi-pt-10 dt:coi-pt-50 coi-mt-30 bg-secondary uppercase coi-text-53 dt:coi-text-182 home-title text-primary relative order-3 dt:order-0 coi-pl-6 desktop-only">
+        <h1 className="col-start-1 col-span-4 dt:col-start-1 dt:col-span-6 coi-pt-10 dt:coi-pt-50 coi-mt-30 bg-secondary uppercase home-title text-primary relative order-3 dt:order-0 coi-pl-6 desktop-only">
           <RotateRevealText>Nhật Phong</RotateRevealText>
         </h1>
       </section>
+      <footer className="parking-note">
+         <p>
+          <strong>Ghi chú:</strong> Gửi xe tại bãi xe trong trường
+          (cổng vào bãi giữ xe trên đường Nguyễn Văn Cừ).
+          Hoặc gửi xe ở NOWZONE, đi bộ qua cầu vượt bộ hành
+          rồi vào cổng chính.
+        </p>
+      </footer>
     </Wrapper>
   )
 }
+
