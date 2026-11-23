@@ -36,7 +36,7 @@ const CONTACT_LINKS = [
   },
 ] as const
 
-const TARGET_DATE = new Date('2026-11-21T09:00:00+07:00')
+const TARGET_DATE = new Date('2026-11-29T10:00:00+07:00')
 
 export default function Home() {
   const [isPreloaderComplete, setIsPreloaderComplete] = useState(false)
@@ -177,7 +177,7 @@ export default function Home() {
               as="h2"
               className="text-secondary coi-pt-30 dt:coi-pt-50 uppercase h1"
             >
-              Friday, Nov 21, 2025
+              Sunday, Nov 29, 2026
             </RotateRevealText>
             <RotateRevealText
               as="h2"
@@ -185,23 +185,14 @@ export default function Home() {
             >
               From{' '}
               <span className="bg-contrast text-primary coi-px-12 coi-rounded-10">
-                9:00 - 10:30
-              </span>
-            </RotateRevealText>
-            <RotateRevealText
-              as="h2"
-              className="text-secondary coi-pt-30 dt:coi-pt-45 uppercase h1"
-            >
-              Or{' '}
-              <span className="bg-contrast text-primary coi-px-12 coi-rounded-10">
-                13:30 - 15:00
+                10:00 - 12:30
               </span>
             </RotateRevealText>
             <RotateRevealText
               as="h2"
               className="text-secondary coi-pt-30 dt:coi-pt-45 uppercase h1 -coi-tracking-px"
             >
-              At Your University
+              At HCMUS
             </RotateRevealText>
             <div className="-z-1 absolute top-0 left-0 w-full h-full">
               <div className="w-full coi-h-px bg-contrast/20 coi-mt-70 dt:coi-mt-105 relative" />
