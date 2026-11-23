@@ -15,20 +15,20 @@ import { useRotateReveal } from '~/hooks/use-rotate-reveal'
 const CONTACT_LINKS = [
   {
     label: 'Directions to School',
-    href: 'https://maps.app.goo.gl/',
+    href: 'https://maps.app.goo.gl/5FTMvpnMmvxmKxNW6',
     ariaLabel: 'Open Google Maps directions to the ceremony',
     borderSecondary: false,
     isExternal: true,
   },
   {
     label: 'Facebook',
-    href: 'https://facebook.com/',
+    href: 'https://www.facebook.com/phong.tran.nhat.2024',
     ariaLabel: 'Open Facebook in a new tab',
     borderSecondary: true,
     isExternal: true,
   },
   {
-    label: '+84 (00) 000 0000',
+    label: '0971932427',
     href: '#',
     ariaLabel: 'Call',
     borderSecondary: true,
@@ -201,22 +201,13 @@ export default function Home() {
               <div className="w-full coi-h-px bg-contrast/20 coi-mt-76 dt:coi-mt-120 relative" />
             </div>
             <h1 className="col-start-1 col-span-4 dt:col-start-1 dt:col-span-6 coi-pt-10 dt:coi-pt-50 coi-mt-30 bg-secondary uppercase coi-text-60 dt:coi-text-160 home-title text-primary relative order-3 dt:order-0 mobile-only">
-              <RotateRevealText>Your Name</RotateRevealText>
+              <RotateRevealText>Nhật Phong</RotateRevealText>
             </h1>
           </div>
         </div>
         <h1 className="col-start-1 col-span-4 dt:col-start-1 dt:col-span-6 coi-pt-10 dt:coi-pt-50 coi-mt-30 bg-secondary uppercase coi-text-53 dt:coi-text-182 home-title text-primary relative order-3 dt:order-0 coi-pl-6 desktop-only">
-          <RotateRevealText>Your Name</RotateRevealText>
+          <RotateRevealText>Nhật Phong</RotateRevealText>
         </h1>
-        <div className="col-span-full dt:col-start-7 dt:col-span-2 coi-mt-20 order-3 dt:order-0 coi-ml-21 dt:coi-ml-0">
-          <Image
-            src="/stamp.png"
-            alt="Graduation Left"
-            aspectRatio={5 / 4}
-            mobileSize="100vw"
-            desktopSize="33vw"
-          />
-        </div>
       </section>
     </Wrapper>
   )
