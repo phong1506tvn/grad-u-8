@@ -205,7 +205,7 @@ export default function Home() {
             </h1>
           </div>
         </div>
-        <h1 className="col-span-full coi-pt-10 dt:coi-pt-50 coi-mt-30 bg-secondary uppercase home-title text-primary relative order-3 dt:order-0 coi-pl-6 desktop-only">
+        <h1 className="col-span-full coi-pt-10 dt:coi-pt-50 coi-mt-30 bg-secondary uppercase home-title text-primary relative order-3 dt:order-0 desktop-only">
           <RotateRevealText>Nhật Phong</RotateRevealText>
         </h1>
       </section>
